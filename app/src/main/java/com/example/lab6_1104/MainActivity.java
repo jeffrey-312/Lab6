@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             convertView=getLayoutInflater().inflate(view,parent,false);
             TextView name =convertView.findViewById(R.id.name);
             name.setText(data[position].name);
-            ImageView imageView = convertView.findViewById(R.id.name);
+            ImageView imageView = convertView.findViewById(R.id.imageView);
             imageView.setImageResource(data[position].photo);
             return convertView;
         }
